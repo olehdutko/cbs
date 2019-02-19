@@ -1,0 +1,690 @@
+var 10_A = Ext.create('Ext.form.TextField', { 
+    id: "10_A",
+    name: "10_A",
+    width: 500,
+    fieldLabel: "10^A ISBN",
+    labelWidth: 150
+});
+var 10_B = Ext.create('Ext.form.TextField', { 
+    id: "10_B",
+    name: "10_B",
+    width: 500,
+    fieldLabel: "10^B Уточнения",
+    labelWidth: 150
+});
+var 10_D = Ext.create('Ext.form.TextField', { 
+    id: "10_D",
+    name: "10_D",
+    width: 500,
+    fieldLabel: "10^D Цена общая для всех экземпляров - NNN.NN",
+    labelWidth: 150
+});
+var 10_C = Ext.create('Ext.form.TextField', { 
+    id: "10_C",
+    name: "10_C",
+    width: 500,
+    fieldLabel: "10^C Обозначение валюты",
+    labelWidth: 150
+});
+var 101_A = Ext.create('Ext.form.TextField', { 
+    id: "101_A",
+    name: "101_A",
+    width: 500,
+    fieldLabel: "101 101: Язык основного текста",
+    labelWidth: 150
+});
+var 102_A = Ext.create('Ext.form.TextField', { 
+    id: "102_A",
+    name: "102_A",
+    width: 500,
+    fieldLabel: "102 102: Страна",
+    labelWidth: 150
+});
+var 200_A = Ext.create('Ext.form.TextField', { 
+    id: "200_A",
+    name: "200_A",
+    width: 500,
+    fieldLabel: "200^A Заглавие",
+    labelWidth: 150
+});
+var 200_B = Ext.create('Ext.form.TextField', { 
+    id: "200_B",
+    name: "200_B",
+    width: 500,
+    fieldLabel: "200^B Общее обозначение материала",
+    labelWidth: 150
+});
+var 200_E = Ext.create('Ext.form.TextField', { 
+    id: "200_E",
+    name: "200_E",
+    width: 500,
+    fieldLabel: "200^E Сведения, относящиеся к заглавию",
+    labelWidth: 150
+});
+var 200_F = Ext.create('Ext.form.TextField', { 
+    id: "200_F",
+    name: "200_F",
+    width: 500,
+    fieldLabel: "200^F Первые сведения об ответственности",
+    labelWidth: 150
+});
+var 200_G = Ext.create('Ext.form.TextField', { 
+    id: "200_G",
+    name: "200_G",
+    width: 500,
+    fieldLabel: "200^G Последующие сведения об ответственности",
+    labelWidth: 150
+});
+var 205_A = Ext.create('Ext.form.TextField', { 
+    id: "205_A",
+    name: "205_A",
+    width: 500,
+    fieldLabel: "205^A Сведения об издании",
+    labelWidth: 150
+});
+var 205_B = Ext.create('Ext.form.TextField', { 
+    id: "205_B",
+    name: "205_B",
+    width: 500,
+    fieldLabel: "205^B Дополнительные сведения об издании",
+    labelWidth: 150
+});
+var 210_C = Ext.create('Ext.form.TextField', { 
+    id: "210_C",
+    name: "210_C",
+    width: 500,
+    fieldLabel: "210^C Издательство - Издающая организация",
+    labelWidth: 150
+});
+var 210_A = Ext.create('Ext.form.TextField', { 
+    id: "210_A",
+    name: "210_A",
+    width: 500,
+    fieldLabel: "210^A Город1",
+    labelWidth: 150
+});
+var 210_X = Ext.create('Ext.form.TextField', { 
+    id: "210_X",
+    name: "210_X",
+    width: 500,
+    fieldLabel: "210^X Город2",
+    labelWidth: 150
+});
+var 210_Y = Ext.create('Ext.form.TextField', { 
+    id: "210_Y",
+    name: "210_Y",
+    width: 500,
+    fieldLabel: "210^Y Город3",
+    labelWidth: 150
+});
+var 210_D = Ext.create('Ext.form.TextField', { 
+    id: "210_D",
+    name: "210_D",
+    width: 500,
+    fieldLabel: "210^D Год издания",
+    labelWidth: 150
+});
+var 215_A = Ext.create('Ext.form.TextField', { 
+    id: "215_A",
+    name: "215_A",
+    width: 500,
+    fieldLabel: "215^A Объем - цифры",
+    labelWidth: 150
+});
+var 215_1 = Ext.create('Ext.form.TextField', { 
+    id: "215_1",
+    name: "215_1",
+    width: 500,
+    fieldLabel: "215^1 Единица измерения",
+    labelWidth: 150
+});
+var 215_C = Ext.create('Ext.form.TextField', { 
+    id: "215_C",
+    name: "215_C",
+    width: 500,
+    fieldLabel: "215^C Иллюстрации - 1",
+    labelWidth: 150
+});
+var 215_D = Ext.create('Ext.form.TextField', { 
+    id: "215_D",
+    name: "215_D",
+    width: 500,
+    fieldLabel: "215^D Размер текстовых материалов, нот, карт",
+    labelWidth: 150
+});
+var 215_3 = Ext.create('Ext.form.TextField', { 
+    id: "215_3",
+    name: "215_3",
+    width: 500,
+    fieldLabel: "215^3 Вид упаковки - в переплете и др.",
+    labelWidth: 150
+});
+var 225_A = Ext.create('Ext.form.TextField', { 
+    id: "225_A",
+    name: "225_A",
+    width: 500,
+    fieldLabel: "225^A Наименование серии",
+    labelWidth: 150
+});
+var 461_C = Ext.create('Ext.form.TextField', { 
+    id: "461_C",
+    name: "461_C",
+    width: 500,
+    fieldLabel: "330^F 1-й автор - ФИО¦330^2 2-й автор - ФИО¦330^3 3-й автор - ФИО¦330^X Роль - Инвертирование ФИО допустимо?¦330^C ЗАГЛАВИЕ¦330^G Сведения об ответственности¦330^4 Страницы¦330^0 Иллюстрации¦330^5 КЛЮЧЕВЫЕ СЛОВА - тема 1¦330^6 КЛЮЧЕВЫЕ СЛОВА - тема 2¦330^7 КЛЮЧЕВЫЕ СЛОВА - тема 3¦330^L Издательский индекс",
+    labelWidth: 150
+});
+var 461_2 = Ext.create('Ext.form.TextField', { 
+    id: "461_2",
+    name: "461_2",
+    width: 500,
+    fieldLabel: "461^C Заглавие",
+    labelWidth: 150
+});
+var 461_E = Ext.create('Ext.form.TextField', { 
+    id: "461_E",
+    name: "461_E",
+    width: 500,
+    fieldLabel: "461^2 Общее обозначение материала",
+    labelWidth: 150
+});
+var 461_F = Ext.create('Ext.form.TextField', { 
+    id: "461_F",
+    name: "461_F",
+    width: 500,
+    fieldLabel: "461^E Сведения, относящиеся к заглавию",
+    labelWidth: 150
+});
+var 461_G = Ext.create('Ext.form.TextField', { 
+    id: "461_G",
+    name: "461_G",
+    width: 500,
+    fieldLabel: "461^F Сведения об ответственности",
+    labelWidth: 150
+});
+var 461_D = Ext.create('Ext.form.TextField', { 
+    id: "461_D",
+    name: "461_D",
+    width: 500,
+    fieldLabel: "461^G Издательство",
+    labelWidth: 150
+});
+var 461_H = Ext.create('Ext.form.TextField', { 
+    id: "461_H",
+    name: "461_H",
+    width: 500,
+    fieldLabel: "461^D Город",
+    labelWidth: 150
+});
+var 461_Z = Ext.create('Ext.form.TextField', { 
+    id: "461_Z",
+    name: "461_Z",
+    width: 500,
+    fieldLabel: "461^H Год начала издания",
+    labelWidth: 150
+});
+var 461_V = Ext.create('Ext.form.TextField', { 
+    id: "461_V",
+    name: "461_V",
+    width: 500,
+    fieldLabel: "461^Z Год окончания издания",
+    labelWidth: 150
+});
+var 461_T = Ext.create('Ext.form.TextField', { 
+    id: "461_T",
+    name: "461_T",
+    width: 500,
+    fieldLabel: "461^V Вид упаковки - в переплете и др.",
+    labelWidth: 150
+});
+var 461_I = Ext.create('Ext.form.TextField', { 
+    id: "461_I",
+    name: "461_I",
+    width: 500,
+    fieldLabel: "461^T Тираж - цифры",
+    labelWidth: 150
+});
+var 461_A = Ext.create('Ext.form.TextField', { 
+    id: "461_A",
+    name: "461_A",
+    width: 500,
+    fieldLabel: "461^I ISBN",
+    labelWidth: 150
+});
+var 461_X = Ext.create('Ext.form.TextField', { 
+    id: "461_X",
+    name: "461_X",
+    width: 500,
+    fieldLabel: "461^A Перевод заглавия",
+    labelWidth: 150
+});
+var 60_A = Ext.create('Ext.form.TextField', { 
+    id: "60_A",
+    name: "60_A",
+    width: 500,
+    fieldLabel: "461^X 1-й автор - Заголовок описания",
+    labelWidth: 150
+});
+var 600_A = Ext.create('Ext.form.TextField', { 
+    id: "600_A",
+    name: "600_A",
+    width: 500,
+    fieldLabel: "60 60: Раздел знаний",
+    labelWidth: 150
+});
+var 600_G = Ext.create('Ext.form.TextField', { 
+    id: "600_G",
+    name: "600_G",
+    width: 500,
+    fieldLabel: "600^A Фамилия, инициалы",
+    labelWidth: 150
+});
+var 600_B = Ext.create('Ext.form.TextField', { 
+    id: "600_B",
+    name: "600_B",
+    width: 500,
+    fieldLabel: "600^G Расширение инициалов",
+    labelWidth: 150
+});
+var 600_1 = Ext.create('Ext.form.TextField', { 
+    id: "600_1",
+    name: "600_1",
+    width: 500,
+    fieldLabel: "600^B Текст",
+    labelWidth: 150
+});
+var 600_C = Ext.create('Ext.form.TextField', { 
+    id: "600_C",
+    name: "600_C",
+    width: 500,
+    fieldLabel: "600^1 Неотъемлемая часть имени",
+    labelWidth: 150
+});
+var 600_D = Ext.create('Ext.form.TextField', { 
+    id: "600_D",
+    name: "600_D",
+    width: 500,
+    fieldLabel: "600^C Дополнения к именам, кроме дат",
+    labelWidth: 150
+});
+var 600_F = Ext.create('Ext.form.TextField', { 
+    id: "600_F",
+    name: "600_F",
+    width: 500,
+    fieldLabel: "600^D Римские цифры",
+    labelWidth: 150
+});
+var 600_R = Ext.create('Ext.form.TextField', { 
+    id: "600_R",
+    name: "600_R",
+    width: 500,
+    fieldLabel: "600^F Даты жизни",
+    labelWidth: 150
+});
+var 606_A = Ext.create('Ext.form.TextField', { 
+    id: "606_A",
+    name: "606_A",
+    width: 500,
+    fieldLabel: "600^R Разночтение фамилии",
+    labelWidth: 150
+});
+var 606_C = Ext.create('Ext.form.TextField', { 
+    id: "606_C",
+    name: "606_C",
+    width: 500,
+    fieldLabel: "606^A Предметный заголовок",
+    labelWidth: 150
+});
+var 606_O = Ext.create('Ext.form.TextField', { 
+    id: "606_O",
+    name: "606_O",
+    width: 500,
+    fieldLabel: "606^C 2-й подзаголовок",
+    labelWidth: 150
+});
+var 606_1 = Ext.create('Ext.form.TextField', { 
+    id: "606_1",
+    name: "606_1",
+    width: 500,
+    fieldLabel: "606^O Географический подзаголовок",
+    labelWidth: 150
+});
+var 621_1 = Ext.create('Ext.form.TextField', { 
+    id: "621_1",
+    name: "621_1",
+    width: 500,
+    fieldLabel: "606^< Хронологический подзаголовок - для 3 темат.подз.",
+    labelWidth: 150
+});
+var 629_B = Ext.create('Ext.form.TextField', { 
+    id: "629_B",
+    name: "629_B",
+    width: 500,
+    fieldLabel: "621^* Индекс ББК",
+    labelWidth: 150
+});
+var 700_A = Ext.create('Ext.form.TextField', { 
+    id: "700_A",
+    name: "700_A",
+    width: 500,
+    fieldLabel: "629^B Данные по краеведению",
+    labelWidth: 150
+});
+var 700_B = Ext.create('Ext.form.TextField', { 
+    id: "700_B",
+    name: "700_B",
+    width: 500,
+    fieldLabel: "700^A Фамилия",
+    labelWidth: 150
+});
+var 700_G = Ext.create('Ext.form.TextField', { 
+    id: "700_G",
+    name: "700_G",
+    width: 500,
+    fieldLabel: "700^B Инициалы",
+    labelWidth: 150
+});
+var 700_C = Ext.create('Ext.form.TextField', { 
+    id: "700_C",
+    name: "700_C",
+    width: 500,
+    fieldLabel: "700^G Расширение инициалов",
+    labelWidth: 150
+});
+var 700_F = Ext.create('Ext.form.TextField', { 
+    id: "700_F",
+    name: "700_F",
+    width: 500,
+    fieldLabel: "700^C Дополнения к именам, кроме дат",
+    labelWidth: 150
+});
+var 701_A = Ext.create('Ext.form.TextField', { 
+    id: "701_A",
+    name: "701_A",
+    width: 500,
+    fieldLabel: "700^F Даты жизни",
+    labelWidth: 150
+});
+var 701_B = Ext.create('Ext.form.TextField', { 
+    id: "701_B",
+    name: "701_B",
+    width: 500,
+    fieldLabel: "701^A Фамилия",
+    labelWidth: 150
+});
+var 702_4 = Ext.create('Ext.form.TextField', { 
+    id: "702_4",
+    name: "702_4",
+    width: 500,
+    fieldLabel: "701^B Инициалы",
+    labelWidth: 150
+});
+var 702_A = Ext.create('Ext.form.TextField', { 
+    id: "702_A",
+    name: "702_A",
+    width: 500,
+    fieldLabel: "702^4 Функция",
+    labelWidth: 150
+});
+var 702_B = Ext.create('Ext.form.TextField', { 
+    id: "702_B",
+    name: "702_B",
+    width: 500,
+    fieldLabel: "702^A Фамилия",
+    labelWidth: 150
+});
+var 702_C = Ext.create('Ext.form.TextField', { 
+    id: "702_C",
+    name: "702_C",
+    width: 500,
+    fieldLabel: "702^B Инициалы",
+    labelWidth: 150
+});
+var 900_T = Ext.create('Ext.form.TextField', { 
+    id: "900_T",
+    name: "900_T",
+    width: 500,
+    fieldLabel: "702^C Дополнения к именам, кроме дат",
+    labelWidth: 150
+});
+var 900_B = Ext.create('Ext.form.TextField', { 
+    id: "900_B",
+    name: "900_B",
+    width: 500,
+    fieldLabel: "900^T Тип документа",
+    labelWidth: 150
+});
+var 900_C = Ext.create('Ext.form.TextField', { 
+    id: "900_C",
+    name: "900_C",
+    width: 500,
+    fieldLabel: "900^B Вид документа",
+    labelWidth: 150
+});
+var 900_9 = Ext.create('Ext.form.TextField', { 
+    id: "900_9",
+    name: "900_9",
+    width: 500,
+    fieldLabel: "900^C Характер документа - 1",
+    labelWidth: 150
+});
+var 903_A = Ext.create('Ext.form.TextField', { 
+    id: "903_A",
+    name: "903_A",
+    width: 500,
+    fieldLabel: "900^9 Код целевого назначения - 3",
+    labelWidth: 150
+});
+var 907_C = Ext.create('Ext.form.TextField', { 
+    id: "907_C",
+    name: "907_C",
+    width: 500,
+    fieldLabel: "903 903: Шифр документа в БД",
+    labelWidth: 150
+});
+var 907_A = Ext.create('Ext.form.TextField', { 
+    id: "907_A",
+    name: "907_A",
+    width: 500,
+    fieldLabel: "907^C Этап работы",
+    labelWidth: 150
+});
+var 907_B = Ext.create('Ext.form.TextField', { 
+    id: "907_B",
+    name: "907_B",
+    width: 500,
+    fieldLabel: "907^A Дата",
+    labelWidth: 150
+});
+var 908_A = Ext.create('Ext.form.TextField', { 
+    id: "908_A",
+    name: "908_A",
+    width: 500,
+    fieldLabel: "907^B ФИО",
+    labelWidth: 150
+});
+var 912_A = Ext.create('Ext.form.TextField', { 
+    id: "912_A",
+    name: "912_A",
+    width: 500,
+    fieldLabel: "908 908: Авторский знак",
+    labelWidth: 150
+});
+var 919_A = Ext.create('Ext.form.TextField', { 
+    id: "919_A",
+    name: "919_A",
+    width: 500,
+    fieldLabel: "909^Q Кумулированные сведения - ГОД¦909^K Номер комплекта¦909^D Место хр.¦909^F Кумулированные сведения - ТОМ¦909^H Кумулированные сведения - НОМЕРА¦909^V Кумулированные сведения-НОМЕРА валовые¦909^P Шифр подшивки‹‡910^A Статус¬910^B Инв.N экз¬910^C Дата пост.¬910^D Место хр.¬910^Q Наименование коллекции¬910^R Расстановочный шифр¬910^E Цена экз.¬910^H Штрих-код/Радиометка¬910^1 ЭКЗ - ЦБС/ВУЗ¬910^T Специальное назначение фонда - ВУЗ¬910^= Коэффициент многоразового использования¬910^4 Экз. не на баланс¬910^U N записи КСУ¬910^Y N акта¬910^F Канал поступления¬910^2 Число выданных экз-ров для статуса U- безинв.учет¬910^V Номер записи КС2 - номер акта списания¬910^X Для ЦБС/ВУЗ - количество списываемых экз.¬910^K Количество экз. для докомплектования¬910^W Номер Акта передачи в другое подразделение¬910^Z Для ЦБС/ВУЗ - количество перемещаемых экз.¬910^M Новое место хранения¬910^S Дата проверки фонда¬910^0 Число проверенных экз-ров¬910^! Реальное место нахождения книги",
+    labelWidth: 150
+});
+var 919_K = Ext.create('Ext.form.TextField', { 
+    id: "919_K",
+    name: "919_K",
+    width: 500,
+    fieldLabel: "912 912: Примечания о языке",
+    labelWidth: 150
+});
+var 919_N = Ext.create('Ext.form.TextField', { 
+    id: "919_N",
+    name: "919_N",
+    width: 500,
+    fieldLabel: "919^A Язык каталогизации",
+    labelWidth: 150
+});
+var 920_A = Ext.create('Ext.form.TextField', { 
+    id: "920_A",
+    name: "920_A",
+    width: 500,
+    fieldLabel: "919^K Правила каталогизации",
+    labelWidth: 150
+});
+var 923_H = Ext.create('Ext.form.TextField', { 
+    id: "923_H",
+    name: "923_H",
+    width: 500,
+    fieldLabel: "919^N Наборы символов",
+    labelWidth: 150
+});
+var 923_I = Ext.create('Ext.form.TextField', { 
+    id: "923_I",
+    name: "923_I",
+    width: 500,
+    fieldLabel: "920 920: Имя рабочего листа",
+    labelWidth: 150
+});
+var 961_Z = Ext.create('Ext.form.TextField', { 
+    id: "961_Z",
+    name: "961_Z",
+    width: 500,
+    fieldLabel: "923^H Обозначение и № 2-ой единицы деления - Выпуск",
+    labelWidth: 150
+});
+var 961_U = Ext.create('Ext.form.TextField', { 
+    id: "961_U",
+    name: "961_U",
+    width: 500,
+    fieldLabel: "923^I Заглавие 2-ой единицы деления - Выпуск",
+    labelWidth: 150
+});
+var 961_A = Ext.create('Ext.form.TextField', { 
+    id: "961_A",
+    name: "961_A",
+    width: 500,
+    fieldLabel: "961^Z ЗАГОЛОВОК описания?",
+    labelWidth: 150
+});
+var 961_B = Ext.create('Ext.form.TextField', { 
+    id: "961_B",
+    name: "961_B",
+    width: 500,
+    fieldLabel: "961^U Роль - нужна доб. КК ?",
+    labelWidth: 150
+});
+var 961_G = Ext.create('Ext.form.TextField', { 
+    id: "961_G",
+    name: "961_G",
+    width: 500,
+    fieldLabel: "961^A Фамилия",
+    labelWidth: 150
+});
+var 964_A = Ext.create('Ext.form.TextField', { 
+    id: "964_A",
+    name: "964_A",
+    width: 500,
+    fieldLabel: "961^B Инициалы",
+    labelWidth: 150
+});
+************************************************
+str_10_A = Ext.getCmp("10_A").getValue();
+str_10_B = Ext.getCmp("10_B").getValue();
+str_10_D = Ext.getCmp("10_D").getValue();
+str_10_C = Ext.getCmp("10_C").getValue();
+str_101_A = Ext.getCmp("101_A").getValue();
+str_102_A = Ext.getCmp("102_A").getValue();
+str_200_A = Ext.getCmp("200_A").getValue();
+str_200_B = Ext.getCmp("200_B").getValue();
+str_200_E = Ext.getCmp("200_E").getValue();
+str_200_F = Ext.getCmp("200_F").getValue();
+str_200_G = Ext.getCmp("200_G").getValue();
+str_205_A = Ext.getCmp("205_A").getValue();
+str_205_B = Ext.getCmp("205_B").getValue();
+str_210_C = Ext.getCmp("210_C").getValue();
+str_210_A = Ext.getCmp("210_A").getValue();
+str_210_X = Ext.getCmp("210_X").getValue();
+str_210_Y = Ext.getCmp("210_Y").getValue();
+str_210_D = Ext.getCmp("210_D").getValue();
+str_215_A = Ext.getCmp("215_A").getValue();
+str_215_1 = Ext.getCmp("215_1").getValue();
+str_215_C = Ext.getCmp("215_C").getValue();
+str_215_D = Ext.getCmp("215_D").getValue();
+str_215_3 = Ext.getCmp("215_3").getValue();
+str_225_A = Ext.getCmp("225_A").getValue();
+str_461_C = Ext.getCmp("461_C").getValue();
+str_461_2 = Ext.getCmp("461_2").getValue();
+str_461_E = Ext.getCmp("461_E").getValue();
+str_461_F = Ext.getCmp("461_F").getValue();
+str_461_G = Ext.getCmp("461_G").getValue();
+str_461_D = Ext.getCmp("461_D").getValue();
+str_461_H = Ext.getCmp("461_H").getValue();
+str_461_Z = Ext.getCmp("461_Z").getValue();
+str_461_V = Ext.getCmp("461_V").getValue();
+str_461_T = Ext.getCmp("461_T").getValue();
+str_461_I = Ext.getCmp("461_I").getValue();
+str_461_A = Ext.getCmp("461_A").getValue();
+str_461_X = Ext.getCmp("461_X").getValue();
+str_60_A = Ext.getCmp("60_A").getValue();
+str_600_A = Ext.getCmp("600_A").getValue();
+str_600_G = Ext.getCmp("600_G").getValue();
+str_600_B = Ext.getCmp("600_B").getValue();
+str_600_1 = Ext.getCmp("600_1").getValue();
+str_600_C = Ext.getCmp("600_C").getValue();
+str_600_D = Ext.getCmp("600_D").getValue();
+str_600_F = Ext.getCmp("600_F").getValue();
+str_600_R = Ext.getCmp("600_R").getValue();
+str_606_A = Ext.getCmp("606_A").getValue();
+str_606_C = Ext.getCmp("606_C").getValue();
+str_606_O = Ext.getCmp("606_O").getValue();
+str_606_1 = Ext.getCmp("606_1").getValue();
+str_621_1 = Ext.getCmp("621_1").getValue();
+str_629_B = Ext.getCmp("629_B").getValue();
+str_700_A = Ext.getCmp("700_A").getValue();
+str_700_B = Ext.getCmp("700_B").getValue();
+str_700_G = Ext.getCmp("700_G").getValue();
+str_700_C = Ext.getCmp("700_C").getValue();
+str_700_F = Ext.getCmp("700_F").getValue();
+str_701_A = Ext.getCmp("701_A").getValue();
+str_701_B = Ext.getCmp("701_B").getValue();
+str_702_4 = Ext.getCmp("702_4").getValue();
+str_702_A = Ext.getCmp("702_A").getValue();
+str_702_B = Ext.getCmp("702_B").getValue();
+str_702_C = Ext.getCmp("702_C").getValue();
+str_900_T = Ext.getCmp("900_T").getValue();
+str_900_B = Ext.getCmp("900_B").getValue();
+str_900_C = Ext.getCmp("900_C").getValue();
+str_900_9 = Ext.getCmp("900_9").getValue();
+str_903_A = Ext.getCmp("903_A").getValue();
+str_907_C = Ext.getCmp("907_C").getValue();
+str_907_A = Ext.getCmp("907_A").getValue();
+str_907_B = Ext.getCmp("907_B").getValue();
+str_908_A = Ext.getCmp("908_A").getValue();
+str_912_A = Ext.getCmp("912_A").getValue();
+str_919_A = Ext.getCmp("919_A").getValue();
+str_919_K = Ext.getCmp("919_K").getValue();
+str_919_N = Ext.getCmp("919_N").getValue();
+str_920_A = Ext.getCmp("920_A").getValue();
+str_923_H = Ext.getCmp("923_H").getValue();
+str_923_I = Ext.getCmp("923_I").getValue();
+str_961_Z = Ext.getCmp("961_Z").getValue();
+str_961_U = Ext.getCmp("961_U").getValue();
+str_961_A = Ext.getCmp("961_A").getValue();
+str_961_B = Ext.getCmp("961_B").getValue();
+str_961_G = Ext.getCmp("961_G").getValue();
+str_964_A = Ext.getCmp("964_A").getValue();
+************************************************
+10_A, 10_B, 10_D, 10_C, 101_A, 102_A, 200_A, 200_B, 200_E, 200_F, 200_G, 
+205_A, 205_B, 210_C, 210_A, 210_X, 210_Y, 210_D, 215_A, 215_1, 215_C, 215_D, 
+215_3, 225_A, 461_C, 461_2, 461_E, 461_F, 461_G, 461_D, 461_H, 461_Z, 461_V, 
+461_T, 461_I, 461_A, 461_X, 60_A, 600_A, 600_G, 600_B, 600_1, 600_C, 600_D, 
+600_F, 600_R, 606_A, 606_C, 606_O, 606_1, 621_1, 629_B, 700_A, 700_B, 700_G, 
+700_C, 700_F, 701_A, 701_B, 702_4, 702_A, 702_B, 702_C, 900_T, 900_B, 900_C, 
+900_9, 903_A, 907_C, 907_A, 907_B, 908_A, 912_A, 919_A, 919_K, 919_N, 920_A, 
+923_H, 923_I, 961_Z, 961_U, 961_A, 961_B, 961_G, 964_A, 

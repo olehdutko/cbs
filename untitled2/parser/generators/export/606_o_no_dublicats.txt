@@ -1,0 +1,16 @@
+CREATE TABLE `606_o` (`id` int(4) NOT NULL,`field` varchar(100) COLLATE utf8_unicode_ci NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+ALTER TABLE `606_o`
+ADD PRIMARY KEY (`id`);
+ALTER TABLE `606_o`
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
+INSERT INTO `606_o` (`field`) VALUES("Галичина");
+INSERT INTO `606_o` (`field`) VALUES("США, Латинська Америка");
+INSERT INTO `606_o` (`field`) VALUES("Малая Азия");
+INSERT INTO `606_o` (`field`) VALUES("Північна Америка");
+INSERT INTO `606_o` (`field`) VALUES("Близький Схід");
+INSERT INTO `606_o` (`field`) VALUES("Овруч");
+INSERT INTO `606_o` (`field`) VALUES("СРСР");
+INSERT INTO `606_o` (`field`) VALUES("Україна");
+INSERT INTO `606_o` (`field`) VALUES("Север России");
+INSERT INTO `606_o` (`field`) VALUES("606^O Географический подзаголовок");

@@ -1,0 +1,11 @@
+CREATE TABLE `461_2` (`id` int(4) NOT NULL,`field` varchar(100) COLLATE utf8_unicode_ci NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+ALTER TABLE `461_2`
+ADD PRIMARY KEY (`id`);
+ALTER TABLE `461_2`
+  MODIFY `id` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
+INSERT INTO `461_2` (`field`) VALUES("Ilustracje");
+INSERT INTO `461_2` (`field`) VALUES("Text");
+INSERT INTO `461_2` (`field`) VALUES("Ноти");
+INSERT INTO `461_2` (`field`) VALUES("Текст");
+INSERT INTO `461_2` (`field`) VALUES("Шрифт Брайля");

@@ -1,0 +1,17 @@
+{
+    data: [{
+	abbr:'dollar',
+	name:'Доллар'
+    },
+	
+	{
+	abbr:'grivna',
+	name:'Гривня'
+    },
+	{
+	abbr:'euro',
+	name:'Євро'
+    }
+	
+]
+}

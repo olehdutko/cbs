@@ -1,0 +1,17 @@
+{
+    data: [{
+	event_status_id:'1',
+	event_status:'Нова'
+    },
+	
+	{
+	event_status_id:'2',
+	event_status:'Архівна'
+    },
+	{
+	event_status_id:'0',
+	event_status:'Всі'
+    }
+	
+]
+}

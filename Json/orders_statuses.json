@@ -1,0 +1,27 @@
+{
+    data: [{
+	order_status_id:'1',
+	order_status:'Нові'
+    },
+	
+	{
+	order_status_id:'2',
+	order_status:'Архівні'
+    },
+	
+	{
+	order_status_id:'3',
+	order_status:'Видалені'
+    },
+	{
+	order_status_id:'4',
+	order_status:'Виконані'
+    },
+	
+	{
+	order_status_id:'0',
+	order_status:'Всі'
+    }
+	
+]
+}
